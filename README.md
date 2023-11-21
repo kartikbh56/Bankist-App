@@ -14,4 +14,5 @@ The Bankist app is a banking application project developed as part of Jonas Schm
 - CSS3 (including Flexbox and Grid for layout)
 - JavaScript (ES6+)
 
-Feel free to explore the app, simulate transactions, and experience the features of a banking application!
+## Credits
+This project was completed as part of Jonas Schmedtmann's "JavaScript Course 2023." Special thanks to Jonas for providing valuable insights and guidance throughout the development process.
