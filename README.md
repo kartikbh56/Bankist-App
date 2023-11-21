@@ -14,5 +14,17 @@ The Bankist app is a banking application project developed as part of Jonas Schm
 - CSS3 (including Flexbox and Grid for layout)
 - JavaScript (ES6+)
 
+## Usage
+- visit [Bankist App](https://kartikbh56.github.io/Bankist-App/)
+- Use these userNames and passwords to login and perform operations.
+
+| UserName | Password |
+|----------|----------|
+|    js    |   1111   |
+|    jd    |   2222   |
+|    stw   |   3333   |
+|    ss    |   4444   | 
+|    kbh   |   5555   |
+
 ## Credits
-This project was completed as part of Jonas Schmedtmann's "JavaScript Course 2023." Special thanks to Jonas for providing valuable insights and guidance throughout the development process.
+This project was completed as part of Jonas Schmedtmann's The [Complete JavaScript Course 2024: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/) course on udemy Special thanks to [Jonas](https://github.com/jonasschmedtmann) for providing valuable insights and guidance throughout the development process.
