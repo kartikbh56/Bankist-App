@@ -18,7 +18,7 @@ The Bankist app is a banking application project developed as part of Jonas Schm
 - visit [Bankist App](https://kartikbh56.github.io/Bankist-App/)
 - Use these userNames and passwords to login and perform operations.
 
-| UserName | Password |
+| Username | Password |
 |----------|----------|
 |    js    |   1111   |
 |    jd    |   2222   |
