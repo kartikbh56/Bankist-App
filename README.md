@@ -18,12 +18,15 @@ The Bankist app is a banking application project developed as part of Jonas Schm
 - visit [Bankist App](https://kartikbh56.github.io/Bankist-App/)
 - Use these usernames and passwords to login and perform operations.
 
-   Username   Password 
-     js        1111   
-     jd        2222   
-     stw       3333   
-     ss        4444    
-     kbh       5555   
+|----------|----------|
+| Username | Password |
+|----------|----------|
+|    js    |   1111   |
+|    jd    |   2222   |
+|    stw   |   3333   |
+|    ss    |   4444   | 
+|    kbh   |   5555   |  
+|----------|----------|
 
 ## Credits
 This project was completed as part of Jonas Schmedtmann's The [Complete JavaScript Course 2024: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/) course on udemy Special thanks to [Jonas](https://github.com/jonasschmedtmann) for providing valuable insights and guidance throughout the development process.
