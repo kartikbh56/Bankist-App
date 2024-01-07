@@ -122,7 +122,7 @@ const inputCloseUsername = document.querySelector('.form__input--user');
 const inputClosePin = document.querySelector('.form__input--pin');
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
-
+labelDate.textContent = new Date().toLocaleString()
 const displayMovements = function (movements) {
   containerMovements.innerHTML = '';
   movements.forEach(([Element, movementType, person, date], index) => {
