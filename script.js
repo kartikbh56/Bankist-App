@@ -132,7 +132,7 @@ const displayMovements = function (movements) {
       <div class="movements__type movements__type--${movementType}">${movementType.toUpperCase()}</div>
       ${person ? `<div class="person">${person}</div>` : ''}
       <div class='movements__date'>${date}</div>
-      <div class="movements__value">${Element.toFixed(2)}€</div>
+      <div class="movements__value">${Element.toFixed(2)}₹</div>
     </div>`;
 
     containerMovements.insertAdjacentHTML('afterbegin', movementEntry);
@@ -154,7 +154,7 @@ const calcPrintBalance = function (acc) {
       return (bal += movement);
     });
   acc.balance = balance;
-  labelBalance.textContent = balance.toFixed(2) + ' €';
+  labelBalance.textContent = balance.toFixed(2) + ' ₹';
 };
 
 const calcDisplaySummary = function (acc) {
@@ -163,7 +163,7 @@ const calcDisplaySummary = function (acc) {
       .map(Element => Element[0])
       .filter(Element => Element > 0)
       .reduce((acc, cur) => acc + cur)
-      .toFixed(2) + ' €';
+      .toFixed(2) + ' ₹';
   labelSumOut.textContent =
     Math.abs(
       acc.movements
@@ -172,7 +172,7 @@ const calcDisplaySummary = function (acc) {
         .join(' ')
         ?.split(' ')
         .reduce((acc, cur) => Number(acc) + Number(cur))
-    ).toFixed(2) + ' €';
+    ).toFixed(2) + ' ₹';
   labelSumInterest.textContent =
     acc.movements
       .map(Element => Element[0])
@@ -180,7 +180,7 @@ const calcDisplaySummary = function (acc) {
       .map(Element => (Element * acc.interestRate) / 100)
       .filter((int, i, arr) => int >= 1)
       .reduce((acc, int) => acc + int, 0)
-      .toFixed(2) + ' €';
+      .toFixed(2) + ' ₹';
 };
 const displayUserOptions = function (user) {
   const users = accounts
